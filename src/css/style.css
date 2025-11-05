@@ -1,0 +1,88 @@
+*{
+    font-family: 'Oswald', Helvetica, Arial, sans-serif;
+}
+
+body{
+    background-color: #f14c4c;
+}
+
+table{
+    border: 2px solid #000000;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td{
+    border: 2px solid #000000;
+    padding: 0.75rem;
+}
+
+tbody tr:nth-child(even){
+    background-color: #a52a2a;
+}
+thead{
+    border: 2px solid #000000;
+    background-color: #a52a2a;
+}
+
+.imagem-post{
+    max-width: 100%;
+    display: block;
+}
+
+h1{
+    color:#4d0606;
+    text-align: center;
+}
+
+.botao-comprar{
+    background-color: #000000;
+    color: #a52a2a;
+}
+
+#hero{
+    background-color: #a52a2a;
+}
+
+nav ul li a{
+    color: #4d0606;
+}
+
+main>section{
+    color: #4d0606;
+}
+
+header + nav{
+    background-color: #a52a2a;
+}
+
+input[type="email"] {
+
+border: 2px solid #4d0606;
+
+}
+
+a:visited{
+    color: #000000;
+}
+
+a:active{
+    color: #00ffff;
+}
+
+a{
+    text-decoration: none;
+}
+
+p{
+    line-height: 100%;
+}
+
+button:hover {
+    background-color: #175fb2;
+}
+
+h2::first-letter{
+    font-size:x-large;
+}
+
